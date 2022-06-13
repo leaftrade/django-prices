@@ -8,7 +8,7 @@ from django.conf import settings
 from django.utils.safestring import mark_safe
 from django.utils.translation import get_language, to_locale
 
-from django_babel.templatetags.babel import currencyfmt
+from enmerkar.templatetags.babel import currencyfmt
 
 register = template.Library()
 
